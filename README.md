@@ -1,5 +1,5 @@
 ## Voting Behaviors Simulation using Agent Based Model(ABM)
-This is a mini class project is from Computational Analysis of Social Process. I used agent-based model (ABM) to simulate voting behaviors.
+This is a mini class project. I used agent-based model (ABM) to simulate voting behaviors.
 
 What are some explanatory variables that can explain the difference between voter turnouts by high-income voters and low-income voters? Do “having more resources,” and “having more knowledge about the importance of voting,” lead to higher turnout for rich voters? Can adding more polling locations reduce this disparity? My research seeks to tackle these questions. This study will isolate the effects of “knowing the importance about voting,” and “having more resources, less constrains to go to the polling locations,” on voter turnout. It demonstrates that, making voting easier by adding more polling locations, and increasing the voting periods will drastically reduce the disparity in turnout across different socio-economic groups.
 
