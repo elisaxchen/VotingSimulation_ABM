@@ -1,2 +1,19 @@
-# Voting Behaviors Simulation using Agent Based Model(ABM)
+## Voting Behaviors Simulation using Agent Based Model(ABM)
 This is a mini class project is from Computational Analysis of Social Process. I used agent-based model (ABM) to simulate voting behaviors.
+
+What are some explanatory variables that can explain the difference between voter turnouts by high-income voters and low-income voters? Do “having more resources,” and “having more knowledge about the importance of voting,” lead to higher turnout for rich voters? Can adding more polling locations reduce this disparity? My research seeks to tackle these questions. This study will isolate the effects of “knowing the importance about voting,” and “having more resources, less constrains to go to the polling locations,” on voter turnout. It demonstrates that, making voting easier by adding more polling locations, and increasing the voting periods will drastically reduce the disparity in turnout across different socio-economic groups.
+
+The full report can be accessed through "Report.pdf". 
+
+All codes can be obtained from the "voting_cg" folder. 
+
+Please run “run.py” to access the interactive model. 
+
+### Method
+
+I used agent-based model (ABM) to simulate voting behaviors. In an agent-based model, there are many agents operating according to simple rules. With those simple rules, however, complex, macro-level patterns will emerge. Those patterns are dependent on several controlling parameters we can set based on real-world situations. This approach has several advantages. For one, it allows us to observe how different combinations of factors (parameters) can produce different results. The nonlinear interactions between different factors, such as “knowing the importance of voting,” and “having more resources, less constrains to go to the polling locations,” are nearly impossible to be captured by mathematical functions. In addition, parameters described above are hard to measure in real life. “Internalizing the importance of voting,” and “having less constrains to go to the polling locations,” data are hard to collect, if not nearly impossible to observe.
+ 
+My ABM has three types of voters, mirroring “rich voters,” “poor voters,” and “middle class voters”. Voters have different attributes of “speed,” and “vision.” “Speed” will affect their travel time to the nearest polling locations. Voters with faster speed mean that they go to the polling locations faster, or with less time and resources. In the real world, this could be interpretated as “have greater transportation, more spare time to vote, living closer to the polling locations, or no language barriers to voting.” Essentially, voting is easier for them. All the factors listed above are positively correlated with being rich. “Vision,” in the model, represents the range of grids they can see per time step. Voter agents with higher visions can see if there’s a voting machine within their vision. Poor vision agents need to move around to find a polling location if there’s no voting machine in their sight. This mirrors “education,” in a sense that people with higher level of education tend to consumer more electoral information and know the importance of voting. For poor voters, it is hard to navigate the voting landscape in a short amount of time! Poor voters may still consume political information related to the candidates, but it takes more time for them.
+
+By setting different parameters of “speed” and “vision” for agents, we can observe how these factors, respectively and collectively, create an output (macro-level pattern) in which poor voter turnout is lower than that of rich voters. Adding time steps, we can observe at a given time period, the disparity in turnout between rich and poor voters. This mirrors the fact that there’s always a limited voting period in which voters can cast their ballots. We can also test the effect of having more polling locations per 100 voters on voter turnout by changing the corresponding
+parameters.
